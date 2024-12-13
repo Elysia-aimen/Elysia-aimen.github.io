@@ -9,8 +9,31 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 13 Dec 2024 13:31:39 GMT</pubDate>
+    <pubDate>Fri, 13 Dec 2024 13:57:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>http://example.com/2024/12/13/test1/</link>
+      <guid>http://example.com/2024/12/13/test1/</guid>
+      <pubDate>Fri, 13 Dec 2024 13:57:35 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;个人blog搭建总结1&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>个人blog搭建总结1</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2024/12/13/test1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>个人blog搭建总结1</title>
