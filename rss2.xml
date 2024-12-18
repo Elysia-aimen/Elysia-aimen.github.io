@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 13 Dec 2024 14:14:01 GMT</pubDate>
+    <pubDate>Fri, 13 Dec 2024 14:15:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -21,12 +21,13 @@
         
         
       <description>&lt;p&gt;实验第二次: 纯文字是否成功&lt;/p&gt;
+&lt;p&gt;结果：纯文字试验成功&lt;/p&gt;
 </description>
         
       
       
       
-      <content:encoded><![CDATA[<p>实验第二次: 纯文字是否成功</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>实验第二次: 纯文字是否成功</p><p>结果：纯文字试验成功</p>]]></content:encoded>
       
       
       
