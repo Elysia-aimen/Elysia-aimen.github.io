@@ -9,8 +9,32 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Thu, 19 Dec 2024 07:30:39 GMT</pubDate>
+    <pubDate>Sun, 12 Jan 2025 10:56:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>blog_update_problems</title>
+      <link>http://example.com/2025/01/12/blog_update_problems/</link>
+      <guid>http://example.com/2025/01/12/blog_update_problems/</guid>
+      <pubDate>Sun, 12 Jan 2025 10:45:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;在更新blog时遇到的各种问题与解决方案&quot;&gt;&lt;a href=&quot;#在更新blog时遇到的各种问题与解决方案&quot; class=&quot;headerlink&quot; title=&quot;在更新blog时遇到的各种问题与解决方案&quot;&gt;&lt;/a&gt;在更新blog时遇到的各种问题与解决方案&lt;/h1&gt;&lt;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="在更新blog时遇到的各种问题与解决方案"><a href="#在更新blog时遇到的各种问题与解决方案" class="headerlink" title="在更新blog时遇到的各种问题与解决方案"></a>在更新blog时遇到的各种问题与解决方案</h1><h2 id="1，使用哔哩哔哩插件下载不到本地"><a href="#1，使用哔哩哔哩插件下载不到本地" class="headerlink" title="1，使用哔哩哔哩插件下载不到本地"></a>1，使用哔哩哔哩插件下载不到本地</h2><p>###node版本过低导致的，卸载node，下载npm，在npm上下载node并可以下载多个版本选择一种使用</p><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="2，下载npm与合适node版本后无法使用hexo命令"><a href="#2，下载npm与合适node版本后无法使用hexo命令" class="headerlink" title="2，下载npm与合适node版本后无法使用hexo命令"></a>2，下载npm与合适node版本后无法使用hexo命令</h2><h3 id="环境配置的问题，需要重新配置环境变量"><a href="#环境配置的问题，需要重新配置环境变量" class="headerlink" title="环境配置的问题，需要重新配置环境变量"></a>环境配置的问题，需要重新配置环境变量</h3><h2 id="3，重新配置环境变量之后依旧无法使用环境变量"><a href="#3，重新配置环境变量之后依旧无法使用环境变量" class="headerlink" title="3，重新配置环境变量之后依旧无法使用环境变量"></a>3，重新配置环境变量之后依旧无法使用环境变量</h2><h3 id="需要在新环境下下载执行"><a href="#需要在新环境下下载执行" class="headerlink" title="需要在新环境下下载执行"></a>需要在新环境下下载执行</h3><h3 id="npm-install-webpack-g"><a href="#npm-install-webpack-g" class="headerlink" title="npm install webpack -g"></a>npm install webpack -g</h3><h3 id="和"><a href="#和" class="headerlink" title="和"></a>和</h3><h3 id="npm-install-g-hexo-cli-安装hexo-cli"><a href="#npm-install-g-hexo-cli-安装hexo-cli" class="headerlink" title="npm install -g hexo-cli   安装hexo cli"></a>npm install -g hexo-cli   安装hexo cli</h3><h3 id="hexo-version验证是否对命令响应"><a href="#hexo-version验证是否对命令响应" class="headerlink" title="hexo -version验证是否对命令响应###"></a>hexo -version验证是否对命令响应###</h3>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/update/">update</category>
+      
+      
+      <comments>http://example.com/2025/01/12/blog_update_problems/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>关于算法方面与算法课老师的争执</title>
@@ -34,55 +58,6 @@
       
       
       <comments>http://example.com/2024/12/19/%E4%BE%9D%E7%A8%80%E8%AE%B0%E5%BE%97%E7%9A%84%E8%80%81%E5%B8%88%E8%AF%B4%E7%9A%84%E8%AF%9D/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>test2</title>
-      <link>http://example.com/2024/12/13/test2/</link>
-      <guid>http://example.com/2024/12/13/test2/</guid>
-      <pubDate>Fri, 13 Dec 2024 14:07:26 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;实验第二次: 纯文字是否成功&lt;/p&gt;
-&lt;p&gt;结果：纯文字试验成功&lt;/p&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>实验第二次: 纯文字是否成功</p><p>结果：纯文字试验成功</p>]]></content:encoded>
-      
-      
-      
-      <category domain="http://example.com/tags/test/">test</category>
-      
-      
-      <comments>http://example.com/2024/12/13/test2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.com/2024/12/13/test1/</link>
-      <guid>http://example.com/2024/12/13/test1/</guid>
-      <pubDate>Fri, 13 Dec 2024 13:57:35 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;个人blog搭建总结1&lt;/p&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>个人blog搭建总结1</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://example.com/2024/12/13/test1/#disqus_thread</comments>
       
     </item>
     
