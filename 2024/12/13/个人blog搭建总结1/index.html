@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: 'http://dwldhdtyzyh.com/',
+  twikooEnvId: 'https://twikoo.dwldhdtyzyh.com/',
   commentBarrageConfig:undefined,
   music_page_default: "nav_music",
   root: '/',
@@ -374,7 +374,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'http://dwldhdtyzyh.com/',
+      envId: 'https://twikoo.dwldhdtyzyh.com/',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -391,7 +391,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'http://dwldhdtyzyh.com/',
+      envId: 'https://twikoo.dwldhdtyzyh.com/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -461,7 +461,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'http://dwldhdtyzyh.com/',
+        envId: 'https://twikoo.dwldhdtyzyh.com/',
         region: '',
         pageSize: 6,
         includeReply: true
