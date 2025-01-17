@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Thu, 16 Jan 2025 11:48:49 GMT</pubDate>
+    <pubDate>Fri, 17 Jan 2025 10:48:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -20,12 +20,12 @@
       
         
         
-      <description>&lt;h5 id=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;a href=&quot;#在实现评论功能遇到了许多问题&quot; class=&quot;headerlink&quot; title=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;/a&gt;在实现评论功能遇到了许多问题&lt;/h5&gt;&lt;p&gt;1、没有像github仓库的概念，导致在配置</description>
+      <description>&lt;h5 id=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;a href=&quot;#在实现评论功能遇到了许多问题&quot; class=&quot;headerlink&quot; title=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;/a&gt;在实现评论功能遇到了许多问题&lt;/h5&gt;&lt;p&gt;1、没有像 github 仓库的概念，导致在</description>
         
       
       
       
-      <content:encoded><![CDATA[<h5 id="在实现评论功能遇到了许多问题"><a href="#在实现评论功能遇到了许多问题" class="headerlink" title="在实现评论功能遇到了许多问题"></a>在实现评论功能遇到了许多问题</h5><p>1、没有像github仓库的概念，导致在配置vercel的时候感觉很懵逼</p><p>2、对DNS一知半解，因此成为在配置过程中遇到的差点要解决不了的部分</p><p>3、魔法对于一名计算机专业学生非常重要，Twikoo，基于腾讯云开发，但是实现配置需要登录注册的几个页面都需要魔法才能继续进行</p><h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>emm，虽然了解DNS相关知识很重要，但是思考怎么克服懒惰才是首先要考虑的事，现在已经恶化到：看不下去微信小程序上的面试题和解析这种地步了。虽然和刚开始看并且确实看不懂有不小关系，看了一点面试题题解的感觉就是：好像没学过java这门语言一样。明天把blog主题配色改一下，看起来很不舒服，特别是打开文章后的界面。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/tingyu.jpg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<h5 id="在实现评论功能遇到了许多问题"><a href="#在实现评论功能遇到了许多问题" class="headerlink" title="在实现评论功能遇到了许多问题"></a>在实现评论功能遇到了许多问题</h5><p>1、没有像 github 仓库的概念，导致在配置 vercel 的时候感觉很懵逼</p><p>2、对 DNS 一知半解，因此成为在配置过程中遇到的差点要解决不了的部分</p><p>3、魔法对于一名计算机专业学生非常重要，Twikoo，基于腾讯云开发，但是实现配置需要登录注册的几个页面都需要魔法才能继续进行</p><h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>emm，虽然了解 DNS 相关知识很重要，但是思考怎么克服懒惰才是首先要考虑的事，现在已经恶化到：看不下去微信小程序上的面试题和解析这种地步了。虽然和刚开始看并且确实看不懂有不小关系，看了一点面试题题解的感觉就是：好像没学过 java 这门语言一样。明天把 blog 主题配色改一下，看起来很不舒服，特别是打开文章后的界面。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/tingyu.jpg" alt="停云"></p>]]></content:encoded>
       
       
       
