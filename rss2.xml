@@ -9,8 +9,57 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 17 Jan 2025 14:27:38 GMT</pubDate>
+    <pubDate>Sat, 18 Jan 2025 11:41:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>即刻短文出bug了</title>
+      <link>http://example.com/2025/01/18/2025-01-15-%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/</link>
+      <guid>http://example.com/2025/01/18/2025-01-15-%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/</guid>
+      <pubDate>Sat, 18 Jan 2025 14:03:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;即刻短文不能写太长的文字，否则不显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E7%88%B1%E8%8E%89%E5%8F%AF%E7%88%B1%E6%8D%8F.jpg&quot;&gt;&lt;/</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>即刻短文不能写太长的文字，否则不显示。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E7%88%B1%E8%8E%89%E5%8F%AF%E7%88%B1%E6%8D%8F.jpg"></p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/bug/">bug</category>
+      
+      
+      <comments>http://example.com/2025/01/18/2025-01-15-%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>日记系列</title>
+      <link>http://example.com/2025/01/18/%E6%97%A5%E8%AE%B0%E7%B3%BB%E5%88%97/</link>
+      <guid>http://example.com/2025/01/18/%E6%97%A5%E8%AE%B0%E7%B3%BB%E5%88%97/</guid>
+      <pubDate>Sat, 18 Jan 2025 14:03:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt; 不想继续在blog上加功能了，接下来多看看面试题，和项目制作流程，在学校用的别人的项目完成的实践，但是技术太落后了，用的jdbc，我估计需要再学习一下黑马的web，最近一段时间就把blog当日记写吧，文章可以记录一下各种软件的安装流程，没事可以看一下，感觉这个blog的搭</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p> 不想继续在blog上加功能了，接下来多看看面试题，和项目制作流程，在学校用的别人的项目完成的实践，但是技术太落后了，用的jdbc，我估计需要再学习一下黑马的web，最近一段时间就把blog当日记写吧，文章可以记录一下各种软件的安装流程，没事可以看一下，感觉这个blog的搭建过程可以写一个文章，寒假问一下文庆哥，看能不能再带我做一下他的毕业设计，上一次才大一，啥也看不懂。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E7%90%AA%E7%8C%AB%E7%8C%AB%E5%8F%AF%E7%88%B1%E6%8D%8F.jpg"></p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/notes/">notes</category>
+      
+      
+      <comments>http://example.com/2025/01/18/%E6%97%A5%E8%AE%B0%E7%B3%BB%E5%88%97/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>update_（2）</title>
@@ -82,21 +131,6 @@
       
       
       <comments>http://example.com/2024/12/19/%E4%BE%9D%E7%A8%80%E8%AE%B0%E5%BE%97%E7%9A%84%E8%80%81%E5%B8%88%E8%AF%B4%E7%9A%84%E8%AF%9D/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>个人blog搭建总结1</title>
-      <link>http://example.com/2024/12/13/%E4%B8%AA%E4%BA%BAblog%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%931/</link>
-      <guid>http://example.com/2024/12/13/%E4%B8%AA%E4%BA%BAblog%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%931/</guid>
-      <pubDate>Fri, 13 Dec 2024 13:31:39 GMT</pubDate>
-      
-      
-      
-      
-      
-      
-      <comments>http://example.com/2024/12/13/%E4%B8%AA%E4%BA%BAblog%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%931/#disqus_thread</comments>
       
     </item>
     
