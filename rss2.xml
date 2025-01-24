@@ -9,8 +9,35 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 24 Jan 2025 01:55:19 GMT</pubDate>
+    <pubDate>Fri, 24 Jan 2025 01:56:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>http://example.com/2025/01/24/parent/</link>
+      <guid>http://example.com/2025/01/24/parent/</guid>
+      <pubDate>Fri, 24 Jan 2025 01:56:36 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;-–&lt;/p&gt;
+&lt;p&gt;  title: 记录&lt;/p&gt;
+&lt;p&gt;  date: 2025-01-24 22:03:00&lt;/p&gt;
+&lt;p&gt;  tag: parent&lt;/p&gt;
+&lt;p&gt;  adress: 聚窟州&lt;/p&gt;
+&lt;p&gt;  cover: &lt;a href=&quot;https://elysi</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>-–</p><p>  title: 记录</p><p>  date: 2025-01-24 22:03:00</p><p>  tag: parent</p><p>  adress: 聚窟州</p><p>  cover: <a href="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/2.jpg">https://elysia-dwl.oss-cn-beijing.aliyuncs.com/2.jpg</a></p><p>-–</p><p>  我妈让我给我爸打电话吃饭，我爸说去买修煤气灶的东西了。</p><p>  在回到老家之后，我爸几乎没怎么在家过，今天早上突然良心发现要去买材料修煤气灶。</p><p>  然后，根据我推测，早上我妈应该是生气（虽然我大概猜到但是不确定生什么气）告诉我爸已经修好的煤气灶还没修好，</p><p>  我爸出去买材料也没告诉我妈，我爸听完煤气灶已经修好感觉心态有点炸。</p><p>  我认为我妈的行为有互相伤害的嫌疑，并且从头到尾不承认自己生气不理智造成了不好的结果（虽然心里应该意识到了）。我爸的问题暂时没头绪。</p><p>  这里放一张看起来像MyGo里的动漫女生的肖像来缓解情绪。在加一张小鸟的，小鸟好看捏。</p><img title="" src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/MyGo.jpg" style="zoom: 33%;" data-align="left">    <img title="" src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E5%B0%8F%E9%B8%9F.jpg" style="zoom: 33%;" data-align="right">]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/01/24/parent/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>小记</title>
