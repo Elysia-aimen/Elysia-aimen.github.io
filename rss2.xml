@@ -9,35 +9,8 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 24 Jan 2025 01:31:47 GMT</pubDate>
+    <pubDate>Wed, 22 Jan 2025 11:59:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>记录</title>
-      <link>http://example.com/2025/01/24/parent/</link>
-      <guid>http://example.com/2025/01/24/parent/</guid>
-      <pubDate>Thu, 23 Jan 2025 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;pre&gt;&lt;code&gt;我妈让我给我爸打电话吃饭，我爸说去买修煤气灶的东西了。
-在回到老家之后，我爸几乎没怎么在家过，今天早上突然良心发现要去买材料修煤气灶。
-然后，根据我推测，早上我妈应该是生气（虽然我大概猜到但是不确定生什么气）告诉我爸已经修好的煤气灶还没修好，
-我爸出去买材料</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<pre><code>我妈让我给我爸打电话吃饭，我爸说去买修煤气灶的东西了。在回到老家之后，我爸几乎没怎么在家过，今天早上突然良心发现要去买材料修煤气灶。然后，根据我推测，早上我妈应该是生气（虽然我大概猜到但是不确定生什么气）告诉我爸已经修好的煤气灶还没修好，我爸出去买材料也没告诉我妈，我爸听完煤气灶已经修好感觉心态有点炸。我认为我妈的行为有互相伤害的嫌疑，并且从头到尾不承认自己生气不理智造成了不好的结果（虽然心里应该意识到了）。我爸的问题暂时没头绪。这里放一张看起来像MyGo里的动漫女生的肖像来缓解情绪。在加一张小鸟的，小鸟好看捏。![](https://elysia-dwl.oss-cn-beijing.aliyuncs.com/MyGo.jpg)    ![](https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E5%B0%8F%E9%B8%9F.jpg)</code></pre>]]></content:encoded>
-      
-      
-      
-      <category domain="http://example.com/tags/parent/">parent</category>
-      
-      
-      <comments>http://example.com/2025/01/24/parent/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>小记</title>
