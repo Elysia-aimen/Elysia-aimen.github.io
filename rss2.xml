@@ -9,8 +9,34 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Fri, 24 Jan 2025 02:05:04 GMT</pubDate>
+    <pubDate>Sun, 23 Feb 2025 01:42:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>http://example.com/2025/02/23/notes0223/</link>
+      <guid>http://example.com/2025/02/23/notes0223/</guid>
+      <pubDate>Sun, 23 Feb 2025 01:42:18 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;    安知鱼主题即刻说说找不到哪里出问题，最终决定换个主题，等考完研有时间在继续搞好看的blog&lt;/p&gt;
+&lt;p&gt;    目前先使用此简洁主题&lt;/p&gt;
+&lt;p&gt;    &lt;img src=&quot;https://elysia-dwl.oss-cn-beijing.aliyuncs.c</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>    安知鱼主题即刻说说找不到哪里出问题，最终决定换个主题，等考完研有时间在继续搞好看的blog</p><p>    目前先使用此简洁主题</p><p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg" alt="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg"></p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/02-23/">02/23</category>
+      
+      
+      <comments>http://example.com/2025/02/23/notes0223/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>记录</title>
