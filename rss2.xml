@@ -9,11 +9,36 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Mon, 24 Feb 2025 14:53:04 GMT</pubDate>
+    <pubDate>Tue, 25 Feb 2025 14:53:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>02/23</title>
+      <title>02/25</title>
+      <link>http://example.com/2025/02/25/notes0225/</link>
+      <guid>http://example.com/2025/02/25/notes0225/</guid>
+      <pubDate>Tue, 25 Feb 2025 14:53:59 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;昨天晚上的bug今天中午终于修好了。&lt;/p&gt;
+&lt;p&gt;置图于此，无需多言,神会拯救信仰他的人。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://elysia-dwl.oss-cn-beijing.aliyuncs.com/god.png&quot;&gt;&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>昨天晚上的bug今天中午终于修好了。</p><p>置图于此，无需多言,神会拯救信仰他的人。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/god.png"></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/02/25/notes0225/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>02/24</title>
       <link>http://example.com/2025/02/24/notes0224/</link>
       <guid>http://example.com/2025/02/24/notes0224/</guid>
       <pubDate>Mon, 24 Feb 2025 14:52:59 GMT</pubDate>
