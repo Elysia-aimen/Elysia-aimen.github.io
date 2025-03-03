@@ -9,8 +9,34 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Tue, 25 Feb 2025 14:53:59 GMT</pubDate>
+    <pubDate>Mon, 03 Mar 2025 15:06:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>03/03</title>
+      <link>http://example.com/2025/03/03/notes0303/</link>
+      <guid>http://example.com/2025/03/03/notes0303/</guid>
+      <pubDate>Mon, 03 Mar 2025 15:06:38 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;    每天9点回来吧，折腾折腾写日记时间都没了&lt;/p&gt;
+&lt;p&gt;    &lt;/p&gt;
+&lt;p&gt;    iPad其实不卡，只是网卡，但是为什么有一个买平板的机会不买呢。TAT&lt;/p&gt;
+&lt;p&gt;    &lt;/p&gt;
+&lt;p&gt;    买平板的绝佳好理由：替我爸省的都是以后的彩礼钱，这几千是假的</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>    每天9点回来吧，折腾折腾写日记时间都没了</p><p>    </p><p>    iPad其实不卡，只是网卡，但是为什么有一个买平板的机会不买呢。TAT</p><p>    </p><p>    买平板的绝佳好理由：替我爸省的都是以后的彩礼钱，这几千是假的，彩礼几万是真的。</p><p>    </p><p>    在图书馆打开手机，会忘记为什么要打开手机，感觉习惯了学习枯燥无聊的状态会好很多。</p><p>    剩下前几天遗留的事情明天再写。</p><p>    </p><p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%99.jpg"></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/03/03/notes0303/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>02/25</title>
@@ -231,28 +257,6 @@
       
       
       <comments>http://example.com/2024/12/19/%E4%BE%9D%E7%A8%80%E8%AE%B0%E5%BE%97%E7%9A%84%E8%80%81%E5%B8%88%E8%AF%B4%E7%9A%84%E8%AF%9D/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://example.com/2024/12/13/hello-world/</link>
-      <guid>http://example.com/2024/12/13/hello-world/</guid>
-      <pubDate>Fri, 13 Dec 2024 01:39:39 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://example.com/2024/12/13/hello-world/#disqus_thread</comments>
       
     </item>
     
