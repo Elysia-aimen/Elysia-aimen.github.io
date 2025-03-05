@@ -9,8 +9,30 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Tue, 04 Mar 2025 15:04:16 GMT</pubDate>
+    <pubDate>Wed, 05 Mar 2025 14:50:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>03/03</title>
+      <link>http://example.com/2025/03/05/notes_0305/</link>
+      <guid>http://example.com/2025/03/05/notes_0305/</guid>
+      <pubDate>Wed, 05 Mar 2025 14:19:25 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;     回忆高中，一时间不知道从哪里开始，高一暑假，和我哥发生了矛盾，好像是解决了，其实并没有，高二上，学习开始下降，交了一些完全不了解的朋友，之后碰到了自己无法交流无法理解的朋友，并且开始排斥，衣服也买错了，特别丑，我其实挺注重外貌的，遇到了自己不理解的是，比如班主任不</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>     回忆高中，一时间不知道从哪里开始，高一暑假，和我哥发生了矛盾，好像是解决了，其实并没有，高二上，学习开始下降，交了一些完全不了解的朋友，之后碰到了自己无法交流无法理解的朋友，并且开始排斥，衣服也买错了，特别丑，我其实挺注重外貌的，遇到了自己不理解的是，比如班主任不想负责，在将重担放在学生和自己的选择中，选择了学生，并且正好发生在了我头上，我以为班主任是我理想中的老师，向他展示了最脆弱的部分，我记得袒露心扉时自己被负面情绪重压的呼吸困难，结果发现自己认错了，他其实是自己讨厌的老师类型之一，导致对外界的信任彻底崩塌了。</p><p>    父母不管，老师不值得信任，最信任的朋友在警惕我崩坏，和哥哥的矛盾没有解决，无法依靠，学习下降却并没有心气挽回局势，看着自己不喜欢的人在班级里把握大势，寒冷的天气加上不温暖的人心，让我一度有轻生的想法。生物老师说过：”人都会有自己的自我保护方式“，我的选择大概就是逃避。</p><p>    大概就是和下图soya一样的精神状态</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg"></p><p>    造成的影响一度持续到高中毕业，大学里通过摆烂减轻伤势。其实直到现在，当时的问题也没有完全解决。</p><p>    在同学聚会时，在室友聚餐时，我会思考为什么活着，结果是找不到活着的意义，换一种说法就是，失去一切，离开世界也没关系。幸好这种想法不会长时间地占据主导。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/03/05/notes_0305/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>03/04</title>
@@ -231,30 +253,6 @@
       
       
       <comments>http://example.com/2025/01/15/update_/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>blog_update_problems</title>
-      <link>http://example.com/2025/01/12/blog_update_problems/</link>
-      <guid>http://example.com/2025/01/12/blog_update_problems/</guid>
-      <pubDate>Sun, 12 Jan 2025 10:45:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;在更新blog时遇到的各种问题与解决方案&quot;&gt;&lt;a href=&quot;#在更新blog时遇到的各种问题与解决方案&quot; class=&quot;headerlink&quot; title=&quot;在更新blog时遇到的各种问题与解决方案&quot;&gt;&lt;/a&gt;在更新blog时遇到的各种问题与解决方案&lt;/h1&gt;&lt;</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="在更新blog时遇到的各种问题与解决方案"><a href="#在更新blog时遇到的各种问题与解决方案" class="headerlink" title="在更新blog时遇到的各种问题与解决方案"></a>在更新blog时遇到的各种问题与解决方案</h1><h2 id="1，使用哔哩哔哩插件下载不到本地"><a href="#1，使用哔哩哔哩插件下载不到本地" class="headerlink" title="1，使用哔哩哔哩插件下载不到本地"></a>1，使用哔哩哔哩插件下载不到本地</h2><h3 id="node版本过低导致的，卸载node，下载npm，在npm上下载node并可以下载多个版本选择一种使用"><a href="#node版本过低导致的，卸载node，下载npm，在npm上下载node并可以下载多个版本选择一种使用" class="headerlink" title="node版本过低导致的，卸载node，下载npm，在npm上下载node并可以下载多个版本选择一种使用"></a>node版本过低导致的，卸载node，下载npm，在npm上下载node并可以下载多个版本选择一种使用</h3><p> </p><h2 id="2，下载npm与合适node版本后无法使用hexo命令"><a href="#2，下载npm与合适node版本后无法使用hexo命令" class="headerlink" title="2，下载npm与合适node版本后无法使用hexo命令"></a>2，下载npm与合适node版本后无法使用hexo命令</h2><h3 id="环境配置的问题，需要重新配置环境变量"><a href="#环境配置的问题，需要重新配置环境变量" class="headerlink" title="环境配置的问题，需要重新配置环境变量"></a>环境配置的问题，需要重新配置环境变量</h3><h2 id="3，重新配置环境变量之后依旧无法使用环境变量"><a href="#3，重新配置环境变量之后依旧无法使用环境变量" class="headerlink" title="3，重新配置环境变量之后依旧无法使用环境变量"></a>3，重新配置环境变量之后依旧无法使用环境变量</h2><h3 id="需要在新环境下下载执行"><a href="#需要在新环境下下载执行" class="headerlink" title="需要在新环境下下载执行"></a>需要在新环境下下载执行</h3><h3 id="npm-install-webpack-g"><a href="#npm-install-webpack-g" class="headerlink" title="npm install webpack -g"></a>npm install webpack -g</h3><h3 id="安装hexo-cli"><a href="#安装hexo-cli" class="headerlink" title="安装hexo cli"></a>安装hexo cli</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli   </span><br></pre></td></tr></table></figure><h3 id="验证是否对命令响应"><a href="#验证是否对命令响应" class="headerlink" title="验证是否对命令响应"></a>验证是否对命令响应</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -version</span><br></pre></td></tr></table></figure>]]></content:encoded>
-      
-      
-      
-      <category domain="http://example.com/tags/update/">update</category>
-      
-      
-      <comments>http://example.com/2025/01/12/blog_update_problems/#disqus_thread</comments>
       
     </item>
     
