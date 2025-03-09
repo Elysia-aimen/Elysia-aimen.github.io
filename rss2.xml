@@ -9,8 +9,33 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Wed, 05 Mar 2025 14:50:33 GMT</pubDate>
+    <pubDate>Sun, 09 Mar 2025 14:37:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>03/03</title>
+      <link>http://example.com/2025/03/09/notes%20-%20%E6%A0%B7%E6%9C%AC/</link>
+      <guid>http://example.com/2025/03/09/notes%20-%20%E6%A0%B7%E6%9C%AC/</guid>
+      <pubDate>Sun, 09 Mar 2025 14:22:58 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;     虽然字不太好，但我还是决定写在纸上记录自己，然后转移到blog上&lt;/p&gt;
+&lt;p&gt;    我哥那里我的1500有一部分可以拿来买头戴式隔音耳塞&lt;/p&gt;
+&lt;p&gt;    不想晚上写了，感觉时间太赶了，中午是个不错的地方。&lt;/p&gt;
+&lt;p&gt;    &lt;img src=&quot;htt</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>     虽然字不太好，但我还是决定写在纸上记录自己，然后转移到blog上</p><p>    我哥那里我的1500有一部分可以拿来买头戴式隔音耳塞</p><p>    不想晚上写了，感觉时间太赶了，中午是个不错的地方。</p><p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E4%BA%91%E8%99%AB.jpg"></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/03/09/notes%20-%20%E6%A0%B7%E6%9C%AC/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>03/03</title>
@@ -229,30 +254,6 @@
       
       
       <comments>http://example.com/2025/01/18/2025-01-15-%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>update_（2）</title>
-      <link>http://example.com/2025/01/15/update_/</link>
-      <guid>http://example.com/2025/01/15/update_/</guid>
-      <pubDate>Wed, 15 Jan 2025 14:03:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h5 id=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;a href=&quot;#在实现评论功能遇到了许多问题&quot; class=&quot;headerlink&quot; title=&quot;在实现评论功能遇到了许多问题&quot;&gt;&lt;/a&gt;在实现评论功能遇到了许多问题&lt;/h5&gt;&lt;p&gt;1、没有像 github 仓库的概念，导致在</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h5 id="在实现评论功能遇到了许多问题"><a href="#在实现评论功能遇到了许多问题" class="headerlink" title="在实现评论功能遇到了许多问题"></a>在实现评论功能遇到了许多问题</h5><p>1、没有像 github 仓库的概念，导致在配置 vercel 的时候感觉很懵逼</p><p>2、对 DNS 一知半解，因此成为在配置过程中遇到的差点要解决不了的部分</p><p>3、魔法对于一名计算机专业学生非常重要，Twikoo，基于腾讯云开发，但是实现配置需要登录注册的几个页面都需要魔法才能继续进行</p><h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><p>emm，虽然了解 DNS 相关知识很重要，但是思考怎么克服懒惰才是首先要考虑的事，现在已经恶化到：看不下去微信小程序上的面试题和解析这种地步了。虽然和刚开始看并且确实看不懂有不小关系，看了一点面试题题解的感觉就是：好像没学过 java 这门语言一样。明天把 blog 主题配色改一下，看起来很不舒服，特别是打开文章后的界面。</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/tingyu.jpg" alt="停云"></p>]]></content:encoded>
-      
-      
-      
-      <category domain="http://example.com/tags/update/">update</category>
-      
-      
-      <comments>http://example.com/2025/01/15/update_/#disqus_thread</comments>
       
     </item>
     
