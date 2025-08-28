@@ -9,8 +9,36 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>May all the beauty be blessed</description>
-    <pubDate>Mon, 28 Apr 2025 14:16:11 GMT</pubDate>
+    <pubDate>Thu, 28 Aug 2025 12:54:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>08/28</title>
+      <link>http://example.com/2025/08/28/0828/</link>
+      <guid>http://example.com/2025/08/28/0828/</guid>
+      <pubDate>Thu, 28 Aug 2025 12:40:32 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;div&gt;
+ &lt;center&gt;08/28&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今天玩了好久，渍，难办。先就这样&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg&quot;&gt;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p> </p><div> <center>08/28</center></div><p>今天玩了好久，渍，难办。先就这样</p><p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg"></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2025/08/28/0828/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>让人很生气的软工老师</title>
@@ -262,36 +290,6 @@
       
       
       <comments>http://example.com/2025/03/19/%E4%B8%80%E4%BA%9B%E5%BE%88%E9%87%8D%E8%A6%81%E7%9A%84%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%80%E5%B8%A7/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>学校琐事</title>
-      <link>http://example.com/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/</link>
-      <guid>http://example.com/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/</guid>
-      <pubDate>Tue, 18 Mar 2025 14:36:30 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;     &lt;/p&gt;
-&lt;div&gt;
-&lt;center&gt;
-03/18
-&lt;/center&gt;
-&lt;/div&gt;
-
-&lt;p&gt;    今天第一次上专业英语，很差劲，我决定直面这个老师，太恶心了，等我直面后再来汇报情况&lt;/p&gt;
-&lt;p&gt;                                </description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>     </p><div><center>03/18</center></div><p>    今天第一次上专业英语，很差劲，我决定直面这个老师，太恶心了，等我直面后再来汇报情况</p><p>                                                    芙芙烦恼.jpg</p><p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%993.jpg">                                        </p><div><center>03/22        更新</center></div><p>    半直面，老师决定降低分数作为惩罚，没有说重话，我没有感受到压力，结果其实还好，以后只要不旷课就行，想干嘛就干嘛。</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://example.com/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/#disqus_thread</comments>
       
     </item>
     
