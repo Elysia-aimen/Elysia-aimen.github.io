@@ -1,368 +1,621 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  
-  <title>往世乐土</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="May all the beauty be blessed">
-<meta property="og:type" content="website">
-<meta property="og:title" content="往世乐土">
-<meta property="og:url" content="http://example.com/page/2/index.html">
-<meta property="og:site_name" content="往世乐土">
-<meta property="og:description" content="May all the beauty be blessed">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="董万里">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="往世乐土" type="application/atom+xml">
-  
-  
-  
-  
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0.css">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>往世乐土</title><meta name="author" content="董万里"><meta name="copyright" content="董万里"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="往世乐土"><meta name="application-name" content="往世乐土"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="往世乐土"><meta property="og:url" content="http://example.com/page/2/index.html"><meta property="og:site_name" content="往世乐土"><meta property="og:description" content="May all the beauty be blessed"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/elysia1.jpg"><meta property="article:author" content="董万里"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/elysia1.jpg"><meta name="description" content="May all the beauty be blessed"><link rel="shortcut icon" href="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/elysia1.png"><link rel="canonical" href="http://example.com/page/2/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: 'https://twikoo.dwldhdtyzyh.com/',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: {"mode":"both","api":"https://img2color-go.vercel.app/api?img=","cover_change":true},
+  authorStatus: {"skills":null},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 董万里","link":"链接: ","source":"来源: 往世乐土","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '往世乐土',
+  title: '往世乐土',
+  postAI: '',
+  pageFillDescription: '',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2025-09-14 16:07:02',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-  
-<link rel="stylesheet" href="/lib/fancybox/dist/jquery.fancybox.min.css">
-
-  
-<link rel="stylesheet" href="/css/main.css">
-
-  
-<script src="/lib/jquery/dist/jquery.min.js"></script>
-
-  
-  
-  
-  
-<meta name="generator" content="Hexo 7.3.0"></head>
-<body>
-  <div id="wrapper">
-    <header id="header" class="clearfix">
-	<a id="logo" href="/" title="往世乐土">往世乐土</a>
-	
-	<nav id="nav-menu" class="clearfix">
-		<form id="search" method="post" action="./" role="search">
-			<input id="search-input" type="text" name="s" class="inputbox" value="Search" onfocus="if (value =='Search'){value =''}" onblur="if (value ==''){value='Search'}">
-		</form>
-		<ul>
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
       
-				
-        <li><a class="main-nav-link" href="/">Home</a></li>
+        get: key => {
+          const itemStr = localStorage.getItem(key)
       
-				
-        <li><a class="main-nav-link" href="/archives">Archives</a></li>
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
       
-		</ul>
-	</nav>
-</header>
-    <section id="main" class="clearfix">
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/">学校琐事</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>     </p>
-<div>
-<center>
-03/18
-</center>
-</div>
-
-<p>    今天第一次上专业英语，很差劲，我决定直面这个老师，太恶心了，等我直面后再来汇报情况</p>
-<p>                                                    芙芙烦恼.jpg</p>
-<p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%993.jpg">                                        </p>
-<div>
-<center>
-03/22        更新
-</center>
-</div>
-
-<p>    半直面，老师决定降低分数作为惩罚，没有说重话，我没有感受到压力，结果其实还好，以后只要不旷课就行，想干嘛就干嘛。</p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/18/%E5%AD%A6%E4%B9%A0%E7%BB%8F%E9%AA%8C/">学习经验</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <div>
- <center>
-03/18
-</center>
-</div>
-
-<p>    张宇1000题有点难，决定买武忠祥的660和330，</p>
-<p>    并且在看完一讲后先将此讲的例题再写一遍，然后再写题。</p>
-<p>    王道数据结构先不写代码题了，408只有一道代码题。</p>
-<p>                                                        学霸芙芙护体</p>
-<p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%99.jpg"></p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/17/%E5%8C%BB%E9%99%A2%E4%BA%8B%E4%BB%B6/">医院事件</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p> </p>
-<div><center>
-03/17
-</center></div>
-
-<p>    三月八号发现生殖器上长了异常小痘，有点害怕，在垃圾浏览器拐骗下到了郑州管城中医院，并进行血液检测和27分型检测，确诊hpv11型。因为没有分清hpv与HIV这时已经开始思考怎么轻生了TAT，在连续三天花费7800之后，为了爱心基金与导员说明情况，导员让我去三甲医院重新进行检测，但已经进行激光切除，无法确认，而且郑大一附院医生态度特别差，不想为我诊病，之后省人民医院医生在看过激光切除之前症状照片之后，确认说不是尖锐湿疣，无需进行治疗。甚觉离谱，在兄弟怂恿下拨打了卫健委电话，但证据不足目前在等待哥哥的律师朋友的消息。</p>
-<p>    补充：在诊室进行激光切除和光动力治疗室医生频繁向我说此病如果严重会造成什么恶劣后果，并向我说其中一名学生患者在与导员进行说明后被导员驱逐出校。</p>
-<p>    反思：以后身体有什么毛病，花费50块去三甲医院问诊是不贵的。</p>
-<p>    在进行对之后有重大影响的选择时不能被恐惧与紧张等不良情绪控制，需要思考自己还有多少时间进行选择，以及还有什么更好的选择。    </p>
-<p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/cgb.jpg"></p>
-<p>    后续补充：卫健委正在给到它应该给到的压力，虽然目前还是没什么进展（因为没有明显的证据）</p>
-<div>
- <center>03/25</center>
-</div>
-
-<p>和医疗调解委员会打了电话，管城卫健委没打通，准备施加压力，让管城中医院的人和我打电话，然后暗示他们进行医疗调解</p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/09/notes%20-%200315/">03/03</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>     虽然字不太好，但我还是决定写在纸上记录自己，然后转移到blog上</p>
-<p>    我哥那里我的1500有一部分可以拿来买头戴式隔音耳塞</p>
-<p>    不想晚上写了，感觉时间太赶了，中午是个不错的地方。</p>
-<p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E4%BA%91%E8%99%AB.jpg"></p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/05/%E9%AB%98%E4%B8%AD%E4%BA%8B%E4%BB%B6/">高中事件</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>     回忆高中，一时间不知道从哪里开始，高一暑假，和我哥发生了矛盾，好像是解决了，其实并没有，高二上，学习开始下降，交了一些完全不了解的朋友，之后碰到了自己无法交流无法理解的朋友，并且开始排斥，衣服也买错了，特别丑，我其实挺注重外貌的，遇到了自己不理解的事，比如班主任不想负责，在将重担放在学生和自己的选择中，选择了学生，并且正好发生在了我头上，我以为班主任是我理想中的老师，向他展示了最脆弱的部分，我记得袒露心扉时自己被负面情绪重压的呼吸困难，结果发现自己认错了，他其实是自己讨厌的老师类型之一，导致对外界的信任彻底崩塌了。</p>
-<p>    父母不管，老师不值得信任，最信任的朋友在警惕我崩坏，和哥哥的矛盾没有解决，无法依靠，学习下降却并没有心气挽回局势，看着自己不喜欢的人在班级里把握大势，寒冷的天气加上不温暖的人心，让我一度有轻生的想法。生物老师说过：”人都会有自己的自我保护方式“，我的选择大概就是逃避。</p>
-<p>    大概就是和下图soya一样的精神状态</p>
-<p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg"></p>
-<p>    造成的影响一度持续到高中毕业，大学里通过摆烂减轻伤势。其实直到现在，当时的问题也没有完全解决。</p>
-<p>    在同学聚会时，在室友聚餐时，我会思考为什么活着，结果是找不到活着的意义，换一种说法就是，失去一切，离开世界也没关系。幸好这种想法不会长时间地占据主导。</p>
-<p>    补充：虽然这段人生经历很痛苦，但至少让我窥到了人心险恶世界的一角，我虽然最终没有克服，但至少有了面对的勇气。打击来的时机不算特别糟，来得太早感受不到，来得太晚影响太大。</p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/04/notes0304/">03/04</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>    今天看了数据结构第二章，看到了代码部分，习惯了C++写代码的我看了这个真反胃，由俭入奢易，由奢入俭难，我用什么把你留住，C++。</p>
-<p>    关于前几天耳机摔坏这件事，其实本来就觉得羽绒服里有耳机手机等容易掉落的东西，但还是没当回事，仍然把衣服放在床上，穿的时候从床上拿下来，口袋里面的东西就容易丢出来，应该反思，重视一下可以注意到的会引发事故的小细节，（但是真没想到会直接把其中一个耳机摔得信号都没了，TAT）</p>
-<p>    应该重新思考一下休息的时间放在什么时候，本来周日只打算休息一下午，但是最后玩了一下午加一晚上。</p>
-<p>    今天听歌，突然就想到已经去世的姥爷了，爷爷奶奶很早就去世了，从小爷爷辈的只有姥姥、姥爷。对姥爷印象很深，和他相处的画面会让我回忆起年少时的特别的颜色和味道。他会带着我，在一个水草很茂盛的水里玩（说是洗澡，其实对我来说就是玩），现在想想，好像就那一次，但是仔细想想，下午4、5点，昏黄的太阳照在水草漂浮的水面上，有些吓人，但其实很美。他也带过我和我哥去钓鱼，重要的是一起。也会在早上4点左右和我们一起看漆黑天空中闪烁的启明星，他会指给我们哪个是北斗。</p>
-<p>    今天先写到这里，熄灯了。</p>
-<p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/2.jpg"></p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/03/03/notes0303/">03/03</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>    每天9点回来吧，折腾折腾写日记时间都没了</p>
-<p>    </p>
-<p>    iPad其实不卡，只是网卡，但是为什么有一个买平板的机会不买呢。TAT</p>
-<p>    </p>
-<p>    买平板的绝佳好理由：替我爸省的都是以后的彩礼钱，这几千是假的，彩礼几万是真的。</p>
-<p>    </p>
-<p>    在图书馆打开手机，会忘记为什么要打开手机，感觉习惯了学习枯燥无聊的状态会好很多。</p>
-<p>    剩下前几天遗留的事情明天再写。</p>
-<p>    </p>
-<p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%99.jpg"></p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/02/25/notes0225/">02/25</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>昨天晚上的bug今天中午终于修好了。</p>
-<p>置图于此，无需多言,神会拯救信仰他的人。</p>
-<p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/god.png"></p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/02/24/notes0224/">02/24</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <div>
-<center>
-
-<div>
-<center>7:49</center>
-</div>
-
-<p>    我应该思考一下怎么睡个好觉，昨晚睡觉醒了两次。QAQ</p>
-<p>    有机会开车出去玩可以去一下学姐之前去的景德镇，照片里看起来很好看、</p>
-<center>
-10:16
-</center>
-
-<p>    如果大一没那么SB大概当时已经有对象了罢-_-</p>
-<p>    好瞌睡_(ᗜ ˰ ᗜ)</p>
-<center>
-20:59
-</center>
-
-<p>    本来临时想到的事是打算写在本子上的，但是自己的字有点丑，遂决定还是记录在手机上。</p>
-
-      </div>
-  </article>
-
-  <article class="post">
-      
-        
-          <h1><a href="/2025/02/23/notes0223/">02/23</a></h1>
-        
-      
-      <div class="post-content ">
-        
-  
-
-
-
-
-        <p>    安知鱼主题即刻说说找不到哪里出问题，最终决定换个主题，等考完研有时间在继续搞好看的blog</p>
-<p>    目前先使用此简洁主题</p>
-<p>    <img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/emm.jpg" title="" alt="" data-align="inline"></p>
-<p>    京东默认便宜包邮筛选，而不是全站搜索，感觉是在坑人，以后要小心京东杀熟</p>
-<p><img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E8%8E%B9%E5%AE%9D.jpg"></p>
-<center>15:54</center>
-
-<p>感觉数学好久没接触，对很多式子很迟钝 QAQ</p>
-<center>
-22:39
-</center>
-
-<p>一起去吃饭的时候觉得，自己对未来很迷茫，眼中的世界有抹不掉的灰色。</p>
-<p>高中的时候最严重，到大学通过摆烂减轻松了许多。</p>
-<p>不管怎样，先走一步看一步吧。</p>
-<img src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/band.jpg" title="" alt="" data-align="center">
-
-      </div>
-  </article>
-
-
-  <nav class="pagination clearfix">
-  <ul>
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
     
-    <a class="extend prev" rel="prev" href="/">&lt;i class&#x3D;&quot;fa fa-chevron-circle-left&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">&lt;i class&#x3D;&quot;fa fa-chevron-circle-right&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;&#x2F;i&gt;</a>
-  </ul>
-</nav>
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="往世乐土" type="application/rss+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/%E7%90%AA%E7%8C%AB%E7%8C%AB.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">往世乐土</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/bangumis/index.html"><i class="fas fa-archive faa-tada"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/wechat_pay.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/wechat_pay.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/zfb_pay.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/zfb_pay.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/02-23/" style="font-size: 1.05rem;">02/23<sup>1</sup></a><a href="/tags/bug/" style="font-size: 1.05rem;">bug<sup>1</sup></a><a href="/tags/notes/" style="font-size: 1.05rem;">notes<sup>2</sup></a><a href="/tags/parent/" style="font-size: 1.05rem;">parent<sup>1</sup></a><a href="/tags/update/" style="font-size: 1.05rem;">update<sup>2</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/08/"><span class="card-archive-list-date">八月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/04/"><span class="card-archive-list-date">四月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/03/"><span class="card-archive-list-date">三月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">14</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/02/"><span class="card-archive-list-date">二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="bbTimeList container" id="bbTimeList"><i class="anzhiyufont anzhiyu-icon-jike bber-logo fontbold" onclick="pjax.loadUrl(&quot;/essay/&quot;);" title="即刻短文" href="javascript:void(0);" aria-hidden="true"></i><div class="swiper-container swiper-no-swiping essay_bar_swiper_container" id="bbtalk" tabindex="-1"><div class="swiper-wrapper" id="bber-talk" onclick="pjax.loadUrl(&quot;/essay/&quot;);"><a class="li-style swiper-slide" href="javascript:void(0);">崩坏星穹铁道 [视频]</a><a class="li-style swiper-slide" href="javascript:void(0);">实现即刻说说</a><a class="li-style swiper-slide" href="javascript:void(0);">留言板配置完成</a><a class="li-style swiper-slide" href="javascript:void(0);">评论功能完成，过程有些曲折</a><a class="li-style swiper-slide" href="javascript:void(0);">拥有一个自己的图床</a><a class="li-style swiper-slide" href="javascript:void(0);">文章界面图片没有配置好，明天配，看了一会typora的配置，没调教好，还没之前的好用，明天继续调教</a><a class="li-style swiper-slide" href="javascript:void(0);">家里帮工少了一个，要我顶上，天塌了，爸妈还吵架，这就是早时候为结婚而结婚的后果，我等应引之为戒，一个显性逆天，一个隐形逆天,我不知道是经常吵还是专门在我面前吵。 [图片]</a><a class="li-style swiper-slide" href="javascript:void(0);">明天把前几天看到的即刻说说专属网页试着搭建一下，感觉会很好用的样子 [图片]</a><a class="li-style swiper-slide" href="javascript:void(0);">最近有一种冲动，无论是谁，如果想要强迫我做一件我不想做的事，都需要有一个可以说服或我认可的理由，不能再为了别人而顺从。</a><a class="li-style swiper-slide" href="javascript:void(0);">目前正在使用的即刻说说不是很好用，想要换一个。</a></div></div><a class="bber-gotobb anzhiyufont anzhiyu-icon-circle-arrow-right" onclick="pjax.loadUrl(&quot;/essay/&quot;);" href="javascript:void(0);" title="查看全文"></a></div><script src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js"></script><div class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div id="categoryBar"><div class="category-bar" id="category-bar"><div id="catalog-bar"><div id="catalog-list"><div class="catalog-list-item" id="首页"><a href="/">首页</a></div></div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/')"><div class="post_cover left"><a href="/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/" title="学校琐事" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=56132e55-229e-95a6-bf20-eb747e2e850f" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="学校琐事" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/" title="学校琐事">未读</a></div><a class="article-title" href="/2025/03/18/%E5%AD%A6%E6%A0%A1%E7%90%90%E4%BA%8B/" title="学校琐事">学校琐事</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-18T14:36:30.062Z" title="发表于 2025-03-18 22:36:30" time="2025-03-18 22:36:30">2025-03-18</time><time class="time_hidden" datetime="2025-03-22T14:46:48.714Z" title="更新于 2025-03-22 22:46:48" time="2025-03-22 22:46:48">2025-03-22</time></span></div><div class="content">     
 
 
-</section>
-    <footer id="footer" role="contentinfo">
-    <div>&copy; 2025 <a href="/">往世乐土</a>.
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
-	</div>
-</footer><!-- end #footer -->
+03/18
 
-  </div>
+
+
+    今天第一次上专业英语，很差劲，我决定直面这个老师，太恶心了，等我直面后再来汇报情况
+                                                    芙芙烦恼.jpg
+                                            
+
+
+03/22        更新
+
+
+
+    半直面，老师决定降低分数作为惩罚，没有说重话，我没有感受到压力，结果其实还好，以后只要不旷课就行，想干嘛就干嘛。
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/18/%E5%AD%A6%E4%B9%A0%E7%BB%8F%E9%AA%8C/')"><div class="post_cover left"><a href="/2025/03/18/%E5%AD%A6%E4%B9%A0%E7%BB%8F%E9%AA%8C/" title="学习经验" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=cc1916f6-725d-e0bd-65fa-98a8715c65d0" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="学习经验" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/18/%E5%AD%A6%E4%B9%A0%E7%BB%8F%E9%AA%8C/" title="学习经验">未读</a></div><a class="article-title" href="/2025/03/18/%E5%AD%A6%E4%B9%A0%E7%BB%8F%E9%AA%8C/" title="学习经验">学习经验</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-18T14:21:57.945Z" title="发表于 2025-03-18 22:21:57" time="2025-03-18 22:21:57">2025-03-18</time><time class="time_hidden" datetime="2025-03-18T14:34:35.507Z" title="更新于 2025-03-18 22:34:35" time="2025-03-18 22:34:35">2025-03-18</time></span></div><div class="content">
+ 
+03/18
+
+
+
+    张宇1000题有点难，决定买武忠祥的660和330，
+    并且在看完一讲后先将此讲的例题再写一遍，然后再写题。
+    王道数据结构先不写代码题了，408只有一道代码题。
+                                                        学霸芙芙护体
+    
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/17/%E5%8C%BB%E9%99%A2%E4%BA%8B%E4%BB%B6/')"><div class="post_cover left"><a href="/2025/03/17/%E5%8C%BB%E9%99%A2%E4%BA%8B%E4%BB%B6/" title="医院事件" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=a42dd7eb-deff-d509-ac15-b4297e73230d" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="医院事件" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/17/%E5%8C%BB%E9%99%A2%E4%BA%8B%E4%BB%B6/" title="医院事件">未读</a></div><a class="article-title" href="/2025/03/17/%E5%8C%BB%E9%99%A2%E4%BA%8B%E4%BB%B6/" title="医院事件">医院事件</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-17T14:22:56.803Z" title="发表于 2025-03-17 22:22:56" time="2025-03-17 22:22:56">2025-03-17</time><time class="time_hidden" datetime="2025-03-25T14:51:40.015Z" title="更新于 2025-03-25 22:51:40" time="2025-03-25 22:51:40">2025-03-25</time></span></div><div class="content"> 
+
+03/17
+
+
+    三月八号发现生殖器上长了异常小痘，有点害怕，在垃圾浏览器拐骗下到了郑州管城中医院，并进行血液检测和27分型检测，确诊hpv11型。因为没有分清hpv与HIV这时已经开始思考怎么轻生了TAT，在连续三天花费7800之后，为了爱心基金与导员说明情况，导员让我去三甲医院重新进行检测，但已经进行激光切除，无法确认，而且郑大一附院医生态度特别差，不想为我诊病，之后省人民医院医生在看过激光切除之前症状照片之后，确认说不是尖锐湿疣，无需进行治疗。甚觉离谱，在兄弟怂恿下拨打了卫健委电话，但证据不足目前在等待哥哥的律师朋友的消息。
+    补充：在诊室进行激光切除和光动力治疗室医生频繁向我说此病如果严重会造成什么恶劣后果，并向我说其中一名学生患者在与导员进行说明后被导员驱逐出校。
+    反思：以后身体有什么毛病，花费50块去三甲医院问诊是不贵的。
+    在进行对之后有重大影响的选择时不能被恐惧与紧张等不良情绪控制，需要思考自己还有多少时间进行选择，以及还有什么更好的选择。    
+
+    后续补充：卫健委正在给到它应该给到的压力，虽然目前还是没什么进展（因为没有明显的 ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/09/notes%20-%200315/')"><div class="post_cover left"><a href="/2025/03/09/notes%20-%200315/" title="03/03" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=c130ff96-69fd-c213-cb4a-5ec72ec58033" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="03/03" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/09/notes%20-%200315/" title="03/03">未读</a></div><a class="article-title" href="/2025/03/09/notes%20-%200315/" title="03/03">03/03</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-09T14:22:58.290Z" title="发表于 2025-03-09 22:22:58" time="2025-03-09 22:22:58">2025-03-09</time><time class="time_hidden" datetime="2025-03-09T14:37:40.977Z" title="更新于 2025-03-09 22:37:40" time="2025-03-09 22:37:40">2025-03-09</time></span></div><div class="content">     虽然字不太好，但我还是决定写在纸上记录自己，然后转移到blog上
+    我哥那里我的1500有一部分可以拿来买头戴式隔音耳塞
+    不想晚上写了，感觉时间太赶了，中午是个不错的地方。
+    
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/05/%E9%AB%98%E4%B8%AD%E4%BA%8B%E4%BB%B6/')"><div class="post_cover left"><a href="/2025/03/05/%E9%AB%98%E4%B8%AD%E4%BA%8B%E4%BB%B6/" title="高中事件" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=909782a9-6f4e-1314-61af-fc41192cdbea" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高中事件" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/05/%E9%AB%98%E4%B8%AD%E4%BA%8B%E4%BB%B6/" title="高中事件">未读</a></div><a class="article-title" href="/2025/03/05/%E9%AB%98%E4%B8%AD%E4%BA%8B%E4%BB%B6/" title="高中事件">高中事件</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-05T14:19:25.626Z" title="发表于 2025-03-05 22:19:25" time="2025-03-05 22:19:25">2025-03-05</time><time class="time_hidden" datetime="2025-03-29T14:05:24.596Z" title="更新于 2025-03-29 22:05:24" time="2025-03-29 22:05:24">2025-03-29</time></span></div><div class="content">     回忆高中，一时间不知道从哪里开始，高一暑假，和我哥发生了矛盾，好像是解决了，其实并没有，高二上，学习开始下降，交了一些完全不了解的朋友，之后碰到了自己无法交流无法理解的朋友，并且开始排斥，衣服也买错了，特别丑，我其实挺注重外貌的，遇到了自己不理解的事，比如班主任不想负责，在将重担放在学生和自己的选择中，选择了学生，并且正好发生在了我头上，我以为班主任是我理想中的老师，向他展示了最脆弱的部分，我记得袒露心扉时自己被负面情绪重压的呼吸困难，结果发现自己认错了，他其实是自己讨厌的老师类型之一，导致对外界的信任彻底崩塌了。
+    父母不管，老师不值得信任，最信任的朋友在警惕我崩坏，和哥哥的矛盾没有解决，无法依靠，学习下降却并没有心气挽回局势，看着自己不喜欢的人在班级里把握大势，寒冷的天气加上不温暖的人心，让我一度有轻生的想法。生物老师说过：”人都会有自己的自我保护方式“，我的选择大概就是逃避。
+    大概就是和下图soya一样的精神状态
+
+    造成的影响一度持续到高中毕业，大学里通过摆烂减轻伤势。其实直到现在，当时的问题也没有完全解决。
+    在同学聚会时，在室友聚餐时，我 ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/04/notes0304/')"><div class="post_cover left"><a href="/2025/03/04/notes0304/" title="03/04" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=3a50e988-4115-4ab4-209b-7100a236fc98" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="03/04" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/04/notes0304/" title="03/04">未读</a></div><a class="article-title" href="/2025/03/04/notes0304/" title="03/04">03/04</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-04T14:35:46.186Z" title="发表于 2025-03-04 22:35:46" time="2025-03-04 22:35:46">2025-03-04</time><time class="time_hidden" datetime="2025-03-05T14:50:40.751Z" title="更新于 2025-03-05 22:50:40" time="2025-03-05 22:50:40">2025-03-05</time></span></div><div class="content">    今天看了数据结构第二章，看到了代码部分，习惯了C++写代码的我看了这个真反胃，由俭入奢易，由奢入俭难，我用什么把你留住，C++。
+    关于前几天耳机摔坏这件事，其实本来就觉得羽绒服里有耳机手机等容易掉落的东西，但还是没当回事，仍然把衣服放在床上，穿的时候从床上拿下来，口袋里面的东西就容易丢出来，应该反思，重视一下可以注意到的会引发事故的小细节，（但是真没想到会直接把其中一个耳机摔得信号都没了，TAT）
+    应该重新思考一下休息的时间放在什么时候，本来周日只打算休息一下午，但是最后玩了一下午加一晚上。
+    今天听歌，突然就想到已经去世的姥爷了，爷爷奶奶很早就去世了，从小爷爷辈的只有姥姥、姥爷。对姥爷印象很深，和他相处的画面会让我回忆起年少时的特别的颜色和味道。他会带着我，在一个水草很茂盛的水里玩（说是洗澡，其实对我来说就是玩），现在想想，好像就那一次，但是仔细想想，下午4、5点，昏黄的太阳照在水草漂浮的水面上，有些吓人，但其实很美。他也带过我和我哥去钓鱼，重要的是一起。也会在早上4点左右和我们一起看漆黑天空中闪烁的启明星，他会指给我们哪个是北斗。
+    今天先写到这 ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/03/03/notes0303/')"><div class="post_cover left"><a href="/2025/03/03/notes0303/" title="03/03" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=3a18ba9d-1774-1b04-2fbc-4d8f32ec4799" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="03/03" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/03/03/notes0303/" title="03/03">未读</a></div><a class="article-title" href="/2025/03/03/notes0303/" title="03/03">03/03</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-03-03T15:06:38.546Z" title="发表于 2025-03-03 23:06:38" time="2025-03-03 23:06:38">2025-03-03</time><time class="time_hidden" datetime="2025-03-03T15:06:50.160Z" title="更新于 2025-03-03 23:06:50" time="2025-03-03 23:06:50">2025-03-03</time></span></div><div class="content">    每天9点回来吧，折腾折腾写日记时间都没了
+    
+    iPad其实不卡，只是网卡，但是为什么有一个买平板的机会不买呢。TAT
+    
+    买平板的绝佳好理由：替我爸省的都是以后的彩礼钱，这几千是假的，彩礼几万是真的。
+    
+    在图书馆打开手机，会忘记为什么要打开手机，感觉习惯了学习枯燥无聊的状态会好很多。
+    剩下前几天遗留的事情明天再写。
+    
+    
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/02/25/notes0225/')"><div class="post_cover left"><a href="/2025/02/25/notes0225/" title="02/25" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=13690450-6f14-73a8-d2f2-5a9fd2939560" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="02/25" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/02/25/notes0225/" title="02/25">未读</a></div><a class="article-title" href="/2025/02/25/notes0225/" title="02/25">02/25</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-02-25T14:53:59.047Z" title="发表于 2025-02-25 22:53:59" time="2025-02-25 22:53:59">2025-02-25</time><time class="time_hidden" datetime="2025-02-25T14:53:59.047Z" title="更新于 2025-02-25 22:53:59" time="2025-02-25 22:53:59">2025-02-25</time></span></div><div class="content">昨天晚上的bug今天中午终于修好了。
+置图于此，无需多言,神会拯救信仰他的人。
+
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/02/24/notes0224/')"><div class="post_cover left"><a href="/2025/02/24/notes0224/" title="02/24" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=c967a658-7164-c146-137e-bd5493abbddf" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="02/24" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/02/24/notes0224/" title="02/24">未读</a></div><a class="article-title" href="/2025/02/24/notes0224/" title="02/24">02/24</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-02-24T14:52:59.497Z" title="发表于 2025-02-24 22:52:59" time="2025-02-24 22:52:59">2025-02-24</time><time class="time_hidden" datetime="2025-02-25T14:38:51.445Z" title="更新于 2025-02-25 22:38:51" time="2025-02-25 22:38:51">2025-02-25</time></span></div><div class="content">
+
+
+
+7:49
+
+
+    我应该思考一下怎么睡个好觉，昨晚睡觉醒了两次。QAQ
+    有机会开车出去玩可以去一下学姐之前去的景德镇，照片里看起来很好看、
+
+10:16
+
+
+    如果大一没那么SB大概当时已经有对象了罢-_-
+    好瞌睡_(ᗜ ˰ ᗜ)
+
+20:59
+
+
+    本来临时想到的事是打算写在本子上的，但是自己的字有点丑，遂决定还是记录在手机上。
+</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/02/23/notes0223/')"><div class="post_cover left"><a href="/2025/02/23/notes0223/" title="02/23" style="display: flex;height: 100%;"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/BlackHole2_4k_767c3.jpg?_r_=47329a34-04f0-6023-ed56-bda02b3f8aaf" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="02/23" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2025/02/23/notes0223/" title="02/23">未读</a></div><a class="article-title" href="/2025/02/23/notes0223/" title="02/23">02/23</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-02-23T01:42:18.409Z" title="发表于 2025-02-23 09:42:18" time="2025-02-23 09:42:18">2025-02-23</time><time class="time_hidden" datetime="2025-08-28T12:54:03.239Z" title="更新于 2025-08-28 20:54:03" time="2025-08-28 20:54:03">2025-08-28</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/02-23/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>02/23</span></a></span></div><div class="content">    安知鱼主题即刻说说找不到哪里出问题，最终决定换个主题，等考完研有时间在继续搞好看的blog
+    目前先使用此简洁主题
+    
+    京东默认便宜包邮筛选，而不是全站搜索，感觉是在坑人，以后要小心京东杀熟
+
+15:54
+
+感觉数学好久没接触，对很多式子很迟钝 QAQ
+
+22:39
+
+
+一起去吃饭的时候觉得，自己对未来很迷茫，眼中的世界有抹不掉的灰色。
+高中的时候最严重，到大学通过摆烂减轻松了许多。
+不管怎样，先走一步看一步吧。
+
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="anzhiyufont anzhiyu-icon-chevron-left fa-fw" style="font-weight: inherit; font-size: 1rem;"></i><div class="pagination_tips_prev">上页</div></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/3/#content-inner"><div class="pagination_tips_next">下页</div><i style="font-weight: inherit; font-size: 1rem;" class="anzhiyufont anzhiyu-icon-chevron-right fa-fw"></i></a><div class="toPageGroup"><input id="toPageText" oninput="value=value.replace(/[^0-9]/g,'')" maxlength="3" onkeyup="this.value=this.value.replace(/[^u4e00-u9fa5w]/g,'')" aria-label="toPage"><a id="toPageButton" onclick="anzhiyu.toPage()"><i class="anzhiyufont anzhiyu-icon-angles-right" style="font-weight: inherit; font-size: 1rem;"></i></a></div></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://elysia-dwl.oss-cn-beijing.aliyuncs.com/elysia1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" alt="status"/></div></div><div class="author-info__description">May all the beauty be blessed</div></div></div><div class="sticky_layout"><div class="card-widget"><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/02-23/" style="font-size: 1.05rem;">02/23<sup>1</sup></a><a href="/tags/bug/" style="font-size: 1.05rem;">bug<sup>1</sup></a><a href="/tags/notes/" style="font-size: 1.05rem;">notes<sup>2</sup></a><a href="/tags/parent/" style="font-size: 1.05rem;">parent<sup>1</sup></a><a href="/tags/update/" style="font-size: 1.05rem;">update<sup>2</sup></a></div></div><hr/><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/08/"><span class="card-archive-list-date">八月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/04/"><span class="card-archive-list-date">四月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/03/"><span class="card-archive-list-date">三月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">14</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/02/"><span class="card-archive-list-date">二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr/><div class="card-webinfo"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-file-lines"></i><div class="item-name">文章总数 :</div></div><div class="item-count">27</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-stopwatch"></i><div class="item-name">建站天数 :</div></div><div class="item-count" id="runtimeshow" data-publishDate="2024-12-11T16:00:00.000Z"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-font"></i><div class="item-name">全站字数 :</div></div><div class="item-count">7k</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-universal-access"></i><div class="item-name">总访客数 :</div></div><div class="item-count" id="busuanzi_value_site_uv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-square-poll-vertical"></i><div class="item-name">总访问量 :</div></div><div class="item-count" id="busuanzi_value_site_pv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="workboard"><img class="workSituationImg boardsign" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg" alt="距离月入25k也就还差一个大佬带我~" title="距离月入25k也就还差一个大佬带我~"/><div id="runtimeTextTip"></div></div></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2024 - 2025 By <a class="footer-bar-link" href="/" title="董万里" target="_blank">董万里</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">27</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">0</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/bangumis/index.html"><i class="fas fa-archive faa-tada"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/02-23/" style="font-size: 0.88rem;">02/23<sup>1</sup></a><a href="/tags/bug/" style="font-size: 0.88rem;">bug<sup>1</sup></a><a href="/tags/notes/" style="font-size: 0.88rem;">notes<sup>2</sup></a><a href="/tags/parent/" style="font-size: 0.88rem;">parent<sup>1</sup></a><a href="/tags/update/" style="font-size: 0.88rem;">update<sup>2</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8431457272" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://music.163.com/#/my/m/music/playlist?id=8431457272&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("12/12/2024 09:09:09"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2024 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 董万里 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("12/12/2024 09:09:09"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg";
+        img.title = "下班了就该开开心心的玩耍，嘿嘿~";
+        img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><div class="js-pjax"><script>if (typeof gsap === "object") {
+  getScript("/js/anzhiyu/people.js", {defer:true})
+} else {
+  getScript("https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/gsap/gsap.min.js").then(()=>{
+    getScript("/js/anzhiyu/people.js", {defer:true})
+  });
+}</script><input type="hidden" name="page-type" id="page-type" value="anzhiyu"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://twikoo.dwldhdtyzyh.com/',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
   
-<script src="/lib/fancybox/dist/jquery.fancybox.min.js"></script>
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
 
+  typeof typed === 'object' && typed.destroy()
 
-  
-<script src="/js/helper.js"></script>
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
 
-  
-<script src="/js/_third-party/gitment.js"></script>
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
 
-</body>
-</html>
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
